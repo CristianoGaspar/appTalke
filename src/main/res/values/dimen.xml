@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VALORES DE DPSS DA INTRO -->
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_bottom_margin">20dp</dimen>
+    <dimen name="img_width">120dp</dimen>
+    <dimen name="img_height">120dp</dimen>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_item_height">80dp</dimen>
+
+    <dimen name="textotamanho8">8sp</dimen>
+    <dimen name="textotamanho10">10sp</dimen>
+    <dimen name="textotamanho15">15sp</dimen>
+    <dimen name="textotamanho20">20sp</dimen>
+    <dimen name="textotamanho25">25sp</dimen>
+    <dimen name="textotamanho30">30sp</dimen>
+    <dimen name="textotamanho34">34sp</dimen>
+    <dimen name="textotamanho35">35sp</dimen>
+
+    <dimen name="tamanho_0dp">0dp</dimen>
+    <dimen name="tamanho_5dp">5dp</dimen>
+    <dimen name="tamanho_10dp">10dp</dimen>
+    <dimen name="tamanho_15dp">15dp</dimen>
+    <dimen name="tamanho_16dp">16dp</dimen>
+    <dimen name="logo_20dp">20dp</dimen>
+    <dimen name="tamanho_34dp">34dp</dimen>
+    <dimen name="logo_40">40dp</dimen>
+    <dimen name="logo_50">50dp</dimen>
+    <dimen name="logo_60">60dp</dimen>
+    <dimen name="logo_70">70dp</dimen>
+    <dimen name="logo_80">80dp</dimen>
+    <dimen name="logo_100">100dp</dimen>
+    <dimen name="logo_140">140dp</dimen>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!-- COLORS PADRAO             -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- COLORS SLIDES INTRO               -->
+    <color name="color_slide1">#b12515</color>
+    <color name="color_slide2">#FFBB00</color>
+    <color name="color_slide3">#74a443</color>
+
+    <!-- BOTOES SLIDES INTRO               -->
+    <color name="dot_active">#000000</color>
+
+    <!-- BOTOES SLIDES INTRO               -->
+    <color name="dot_inactive">#cccccc</color>
+
+
+    //REGISTER USER
+    <color name="colorPrimarySignUp">#870104</color>
+    <color name="colorSecondarySignUp">#b14b4f</color>
+    <color name="colorAccentSignUp">#FF4081</color>
+    <color name="colorEditTextBG">#DADADA</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTextColor">#6E6E6E</color>
+
+    <!--  REGISTER USER               -->
+    <color name="color_register_vermelho">#870104</color>
+    <color name="color_register_signup">#b14b4f</color>
+    <color name="color_register_AccentSignUp">#FF4081</color>
+    <color name="color_register_TextBG">#DADADA</color>
+    <color name="color_register_Transparent">#00000000</color>
+    <color name="color_register_TextColor">#6E6E6E</color>
+
+    <!--  ANUNCIOS                        -->
+    <color name="color_black">#000000</color>
+    <color name="color_blue">#303F9F</color>
+    <color name="color_pink">#FF4081</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="texto_white">#FFFFFF</color>
+
+
+
+</resources>

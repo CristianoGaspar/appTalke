@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">AppGarage</string>
+
+    <!-- TEXTOS SLIDES INTRO -->
+
+
+    <string name="texto_next">Next</string>
+
+    <string name="texto_skip">Skip</string>
+
+    <string name="texto_start">Start</string>
+
+    <string name="nome_site">GarageTalke</string>
+
+    <string name="texto_titulo_intro_um">O que é velocidade?</string>
+
+    <string name="textoIntroUm">GARAGE TALKE</string>
+
+    <string name="descIntroUm">Agora é a hora de acelerar nesta comunidade e descobrir</string>
+
+    <string name="textoIntroDois">RESGATE SEU SONHO</string>
+
+    <string name="descIntroDois">Independente de seu veículo aqui você é o que é</string>
+
+    <string name="textoIntroTres">VAMOS LÁ</string>
+
+    <string name="descIntroTres">VAMOS VER O QUE TEMOS PRA VC ?</string>
+
+    <string name="card_anuncio_titulo">Tipo Anuncios</string>
+
+    <string name="card_anuncio_aeromodelo">Aeromodelo</string>
+
+    <string name="card_anuncio_bike">Bike</string>
+
+    <string name="card_anuncio_carro">Carro</string>
+
+    <string name="card_anuncio_caminhao">Caminhão</string>
+
+    <string name="card_anuncio_moto">Moto</string>
+
+    <string name="card_anuncio_skate">Skate</string>
+
+</resources>

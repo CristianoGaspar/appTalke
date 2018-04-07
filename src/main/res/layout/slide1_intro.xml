@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/introum">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TITULO INTRO"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textotamanho20"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="125dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/logo_garage"
+            />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="GARAGE TALKE"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/textotamanho20"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!--ImageView
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_height"
+            android:src="@drawable/ic_slide1" /-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="DESCRIÇÃO INTRO 1"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
