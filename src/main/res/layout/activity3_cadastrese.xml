@@ -4,25 +4,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".IntroActivity"
-    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+    android:layout_height="match_parent"
+    tools:context=".CadastreseActivity"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="3dp"
         app:cardPreventCornerOverlap="false"
-        app:cardUseCompatPadding="true">
-
+        app:cardUseCompatPadding="true"
+        >
         <RelativeLayout
-            android:id="@+id/RelativeLayoutPrincipal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <LinearLayout
                 android:id="@+id/lineaLayout1"
                 android:layout_width="match_parent"
@@ -30,48 +31,47 @@
                 android:background="@color/colorPrimarySignUp"
                 android:gravity="center"
                 android:orientation="vertical">
-
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/circle"
-                    android:padding="10dp"
-                    android:src="@drawable/img_user"
-                    android:textColor="@color/texto_white"
-                    android:tint="@color/texto_white"
+                    android:padding="1dp"
+                    android:src="@drawable/oie_transparent"
 
                     />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="sans-serif"
-                    android:text="ACELERE CONOSCO"
+                    android:text="REGISTRE-SE"
                     android:textColor="@color/texto_white"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    />
             </LinearLayout>
 
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="20dp"
+                android:rotation="45"
+                android:layout_marginTop="-10dp"
                 android:layout_height="20dp"
                 android:layout_below="@+id/lineaLayout1"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="-10dp"
-                android:rotation="45"
-                android:src="@drawable/square" />
+                android:src="@drawable/square"
+                />
 
             <RelativeLayout
                 android:id="@+id/relativeLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
                 android:layout_below="@+id/imageView1"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="30dp">
+                >
 
                 <ImageView
                     android:id="@+id/imgView_userIcon"
@@ -79,8 +79,9 @@
                     android:layout_height="40dp"
                     android:background="@color/colorPrimarySignUp"
                     android:padding="8dp"
-                    android:src="@drawable/img_email"
-                    android:tint="@color/texto_white" />
+                    android:src="@drawable/img_user"
+                    android:tint="@color/texto_white"
+                    />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -89,9 +90,9 @@
                     android:layout_alignParentTop="true"
                     android:layout_toRightOf="@+id/imgView_userIcon"
                     android:background="@color/colorEditTextBG"
-                    android:hint="Informe seu E-mail"
-                    android:paddingLeft="20dp"
+                    android:hint="Digite um apelido"
                     android:textSize="15sp"
+                    android:paddingLeft="20dp"
 
                     />
 
@@ -102,10 +103,11 @@
                 android:id="@+id/relativeLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:layout_below="@+id/relativeLayout1"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="15dp">
+                >
 
                 <ImageView
                     android:id="@+id/imgView_passwordIcon"
@@ -113,8 +115,9 @@
                     android:layout_height="40dp"
                     android:background="@color/colorPrimarySignUp"
                     android:padding="8dp"
-                    android:src="@drawable/img_email"
-                    android:tint="@color/texto_white" />
+                    android:src="@drawable/img_authentication"
+                    android:tint="@color/texto_white"
+                    />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -125,62 +128,133 @@
                     android:background="@color/colorEditTextBG"
                     android:hint="Informe sua senha"
                     android:inputType="textPassword"
+                    android:textSize="15sp"
                     android:paddingLeft="20dp"
-                    android:textSize="15sp" />
+                    />
             </RelativeLayout>
 
 
-            <Button
-                android:id="@+id/btn_signUp"
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:layout_below="@+id/relativeLayout2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imgView_repasswordIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimarySignUp"
+                    android:padding="8dp"
+                    android:src="@drawable/img_authentication"
+                    android:tint="@color/texto_white"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imgView_repasswordIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgView_repasswordIcon"
+                    android:background="@color/colorEditTextBG"
+                    android:hint="Confirme sua senha"
+                    android:inputType="textPassword"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imgView_emailIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimarySignUp"
+                    android:padding="8dp"
+                    android:src="@drawable/img_email"
+                    android:tint="@color/texto_white"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imgView_emailIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgView_emailIcon"
+                    android:background="@color/colorEditTextBG"
+                    android:hint="Qual seu E-mail"
+                    android:textSize="15sp"
+                    android:paddingLeft="20dp"
+                    />
+            </RelativeLayout>
+
+
+            <CheckBox
+                android:id="@+id/chkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="Eu aceito os Termos de Uso"
+                android:textColor="@color/colorSecondarySignUp"
+                android:fontFamily="sans-serif"
+                />
+
+            <Button
+                android:id="@+id/btn_signUp"
+                android:layout_below="@+id/chkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorPrimarySignUp"
-                android:text="ENTRAR"
                 android:textColor="@color/texto_white"
-                android:textSize="20dp" />
+                android:text="CADASTRAR-SE"
+                android:textSize="20dp"
+                />
 
 
             <Button
                 android:id="@+id/btn_signPass"
+                android:layout_below="@+id/btn_signUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/btn_signUp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
 
                 android:background="@color/colorTransparent"
-                android:text="Esqueceu a senha"
-                android:textAllCaps="false"
                 android:textColor="@color/colorSecondarySignUp"
-                android:textSize="13dp" />
+                android:text="Esqueceu a senha"
+                android:textSize="13dp"
+                android:textAllCaps="false"
+                />
 
-            <ImageView
-                android:layout_width="70dp"
-                android:layout_height="120dp"
-                android:layout_below="@+id/btn_signPass"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/circle"
-                android:src="@drawable/oie_transparent"/>
-
-            <android.support.design.widget.FloatingActionButton
-                android:id="@+id/btnAdd"
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-
-                android:layout_below="@+id/btn_signPass"
-                android:layout_marginStart="13dp"
-                android:clickable="true"
-                android:elevation="5dp"
-                android:src="@android:drawable/ic_menu_add"
-                app:backgroundTint="#50ca40" />
 
         </RelativeLayout>
 
+
+
     </android.support.v7.widget.CardView>
+
+
+
+
 
 </RelativeLayout>
