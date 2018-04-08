@@ -14,9 +14,15 @@ public class CadastreseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
         setContentView(R.layout.activity3_cadastrese);
+
+
+        findViewById(R.id.btn_Cadastrese).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CadastreseActivity.this, PreCadastroActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
