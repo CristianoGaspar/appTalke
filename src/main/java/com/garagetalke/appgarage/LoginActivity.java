@@ -25,19 +25,36 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
+   /*
+    EditText editApelido, editSenha, editContrasenha, editEmail;
 
+    Button btnCadastrese;
+    TextView txtCadastro;
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2_login);
 
-        findViewById(R.id.btnAdd).setOnClickListener(new View.OnClickListener() {
+
+      /*  editApelido      = (EditText)findViewById(R.id.apelido);
+        editSenha        = (EditText)findViewById(R.id.senha);
+        editContrasenha  = (EditText)findViewById(R.id.contrasenha);
+        editEmail        = (EditText)findViewById(R.id.email);
+        btnCadastrese    = (Button)findViewById(R.id.btn_Cadastrese);
+        txtCadastro = (TextView)findViewById(R.id.btn_cadastrese);
+    */
+
+      Button btnCadastrese = (Button)findViewById(R.id.btn_cadastro);
+
+        btnCadastrese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, CadastreseActivity.class);
-                startActivity(intent);
+                setContentView(R.layout.activity3_cadastrese);
             }
         });
+
+
     }
 
 }

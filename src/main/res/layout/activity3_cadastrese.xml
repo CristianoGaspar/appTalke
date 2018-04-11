@@ -84,6 +84,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/apelido"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/imgView_userIcon"
@@ -120,6 +121,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/imgView_passwordIcon"
@@ -145,7 +147,7 @@
                 >
 
                 <ImageView
-                    android:id="@+id/imgView_repasswordIcon"
+                    android:id="@+id/imgView_contrapasswordIcon"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:background="@color/colorPrimarySignUp"
@@ -155,11 +157,12 @@
                     />
 
                 <EditText
+                    android:id="@+id/contrasenha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/imgView_repasswordIcon"
+                    android:layout_alignBottom="@+id/imgView_contrapasswordIcon"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/imgView_repasswordIcon"
+                    android:layout_toRightOf="@+id/imgView_contrapasswordIcon"
                     android:background="@color/colorEditTextBG"
                     android:hint="Confirme sua senha"
                     android:inputType="textPassword"
@@ -190,6 +193,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/imgView_emailIcon"

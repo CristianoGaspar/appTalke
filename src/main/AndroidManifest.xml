@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.garagetalke.appgarage">
 
     <application
@@ -15,10 +16,19 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".CadastreseActivity" />
-        <activity android:name=".PreCadastroActivity">
+        <activity android:name=".LoginActivity" >
+
+        </activity>
+        
+        <activity android:name=".CadastreseActivity" >
+
+        </activity>
+
+        <activity android:name=".PreCadastroActivity"></activity>
+        <activity android:name=".SelectEstadoActivity">
+
         </activity>
     </application>
 
